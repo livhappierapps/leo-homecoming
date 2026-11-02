@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Homecoming",
+    "slug": "leo-homecoming",
+    "owner": "livhappierapps",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0b0714"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.livhappierapps.leohomecoming",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.livhappierapps.leohomecoming",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
